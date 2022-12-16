@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'features/presentation/page/sing_in._page.dart';
-import 'features/presentation/page/sing_up._page.dart';
+import 'features/presentation/page/mainscreen/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Instagram Clone',
       theme: ThemeData.dark(),
-      home: const SignUpPage(),
+      home: const MainScreen(),
     );
   }
 }

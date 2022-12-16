@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:insetgram/features/presentation/page/sing_up._page.dart';
+import 'package:insetgram/features/presentation/page/cerdential/sing_up._page.dart';
 
-import '../../../const/constants.dart';
-import '../widgets/button_container_widget.dart';
-import '../widgets/form_container_widget.dart';
+import '../../../../const/constants.dart';
+import '../../widgets/button_container_widget.dart';
+import '../../widgets/form_container_widget.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});
