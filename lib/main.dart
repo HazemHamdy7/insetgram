@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'features/presentation/page/mainscreen/main_screen.dart';
 
 void main() {
@@ -16,5 +15,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark(),
       home: const MainScreen(),
     );
+    
   }
 }

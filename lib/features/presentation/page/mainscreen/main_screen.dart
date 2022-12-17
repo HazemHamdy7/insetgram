@@ -1,8 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
+import 'package:insetgram/features/presentation/page/profile/profile_page.dart';
 
 import '../../../../const/constants.dart';
+import '../activity/activity_page.dart';
+import '../home/home_screen.dart';
+import '../post/upload_post.dart';
+import '../search/search_page.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -85,11 +90,11 @@ class _MainScreenState extends State<MainScreen> {
       body: PageView(
         controller: pageController,
         children: const [
-          Center(child: Text("Home")),
-          Center(child: Text("search")),
-          Center(child: Text("uplode")),
-          Center(child: Text("favorite")),
-          Center(child: Text("account")),
+          HomePage(),
+          SearchPage(),
+          UploadPostPage(),
+          ActivatyPage(),
+          ProfilePage()
         ],
         onPageChanged: onPageChanage,
       ),
