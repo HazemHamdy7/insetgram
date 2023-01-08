@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import '../../../../const/constants.dart';
-import '../../widgets/button_container_widget.dart';
-import '../../widgets/custum_text_signing.dart';
-import '../../widgets/form_container_widget.dart';
-import '../../widgets/profile_icon.dart';
+import '../../widgets basics/button_container_widget.dart';
+import '../../widgets basics/custum_text_signing.dart';
+import '../../widgets basics/text_form_filed_widget.dart';
+import '../../widgets basics/profile_icon.dart';
 
 class SignUpPage extends StatelessWidget {
   const SignUpPage({super.key});
